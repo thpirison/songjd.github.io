@@ -1,4 +1,6 @@
 function move(){
+        //获取移动的DIV对象
+        var obj = document.getElementById("container");
         //设置样式定位属性，让div从当前文档流中拖出。
         //这样，他属于整个活动窗体。可以层叠。
         obj.style.position = "absolute";
